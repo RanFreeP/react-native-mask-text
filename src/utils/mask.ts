@@ -20,7 +20,7 @@ function unMask(value: string, type: 'custom' | 'currency' = 'custom') {
     return number.toString()
   }
 
-  return value.replace(/\W/g, '')
+  return value
 }
 
 /**
