@@ -1,4 +1,4 @@
-# react-native-mask-text
+# react-native-mask-text-russian
 
 This is a library to mask Text and Input components in React Native and Expo (Android, iOS and Web).
 
@@ -9,7 +9,7 @@ This package was created based on other libraries of React Native text mask, wit
 ## Install
 
 ```shell
-yarn add react-native-mask-text
+yarn add react-native-mask-text-russian
 ```
 
 ## Custom Mask
@@ -28,7 +28,7 @@ Component similar with `<TextInput />` but with custom mask option.
 
 ```jsx
 import { StyleSheet } from "react-native";
-import { MaskedTextInput } from "react-native-mask-text";
+import { MaskedTextInput } from "react-native-mask-text-russian";
 
 //...
 
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
 Component similar with `<Text />` but with custom mask option.
 
 ```jsx
-import { MaskedText } from "react-native-mask-text";
+import { MaskedText } from "react-native-mask-text-russian";
 
 //...
 
@@ -78,7 +78,7 @@ Component similar with `<TextInput />` but with date mask option.
 
 ```jsx
 import { StyleSheet } from "react-native";
-import { MaskedTextInput } from "react-native-mask-text";
+import { MaskedTextInput } from "react-native-mask-text-russian";
 
 //...
 
@@ -120,7 +120,7 @@ Component similar with `<TextInput />` but with time mask option.
 
 ```jsx
 import { StyleSheet } from "react-native";
-import { MaskedTextInput } from "react-native-mask-text";
+import { MaskedTextInput } from "react-native-mask-text-russian";
 
 //...
 
@@ -170,7 +170,7 @@ Component similar with `<TextInput />` but with currency mask option.
 
 ```jsx
 import { StyleSheet } from "react-native";
-import { MaskedTextInput } from "react-native-mask-text";
+import { MaskedTextInput } from "react-native-mask-text-russian";
 
 //...
 
@@ -206,7 +206,7 @@ const styles = StyleSheet.create({
 Component similar with `<Text />` but with currency mask option.
 
 ```jsx
-import { MaskedText } from "react-native-mask-text";
+import { MaskedText } from "react-native-mask-text-russian";
 
 //...
 
@@ -228,7 +228,7 @@ import { MaskedText } from "react-native-mask-text";
 Function used to mask text.
 
 ```js
-import { mask } from "react-native-mask-text";
+import { mask } from "react-native-mask-text-russian";
 
 const code = mask("ABC1234","AAA-9999") // return ABC-1234
 ```
@@ -238,7 +238,7 @@ const code = mask("ABC1234","AAA-9999") // return ABC-1234
 Function used to remove text mask.
 
 ```js
-import { unMask } from "react-native-mask-text";
+import { unMask } from "react-native-mask-text-russian";
 
 const code = unMask("ABC-1234") // return ABC1234
 ```
@@ -256,7 +256,3 @@ See [Contributing.md](CONTRIBUTING.md)
 ## License
 
 The app's source code is made available under the [MIT license](LICENSE). Some of the dependencies are licensed differently, with the BSD license, for example.
-
-## Contact
-
-Akinn Rosa - [Github](https://github.com/akinncar) - **[akinncar@hotmail.com](mailto:akinncar@hotmail.com)**

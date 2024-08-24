@@ -1,6 +1,6 @@
 {
-  "name": "react-native-mask-text",
-  "version": "0.0.0",
+  "name": "react-native-mask-text-russian",
+  "version": "1.0.0",
   "description": "A React Native and Expo library to mask text",
   "keywords": [
     "react",
@@ -18,13 +18,13 @@
   "files": [
     "lib/"
   ],
-  "repository": "https://github.com/akinncar/react-native-mask-text",
-  "author": "Akinn Rosa <akinncar@hotmail.com> (https://github.com/akinncar)",
+  "repository": "https://github.com/RanFreeP/react-native-mask-text",
+  "author": "RanFreeP",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/akinncar/react-native-mask-text/issues"
+    "url": "https://github.com/RanFreeP/react-native-mask-text/issues"
   },
-  "homepage": "https://github.com/akinncar/react-native-mask-text#readme",
+  "homepage": "https://github.com/RanFreeP/react-native-mask-text#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
