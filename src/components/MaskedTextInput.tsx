@@ -21,6 +21,7 @@ export interface MaskedTextInputProps extends TIProps {
   textItalic?:boolean
   textDecoration?:TextDecorationOptions
   style?: StyleObj
+  value?: string
 }
 
 export const MaskedTextInputComponent: ForwardRefRenderFunction<
